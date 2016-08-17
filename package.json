@@ -1,0 +1,28 @@
+{
+  "name": "thunder-accelerate-crack",
+  "version": "0.0.1",
+  "description": "A Simple tool to crack thunder accelerate limitations.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crysehillmes/.git"
+  },
+  "keywords": [
+    "thunder",
+    "accelerate",
+    "crack"
+  ],
+  "author": "Cryse Hillmes",
+  "bin": {
+    "thunder-crack": "index.js"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "^2.9.0",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {}
+}
